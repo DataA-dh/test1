@@ -125,9 +125,18 @@ $ git config --list
  
  
 ### Creating a Github Repository
++ GitHub 들어가서 만들면 됩니당...
 
 ### Basic Git Commands
-
++ $git init
++ $git add test.md
++ $git commit -m "second commit test"
++ $git remote rm origin 
++ $git remote add origin https://github.com/username/aaa.git
++ $git push -u origin master
+    + $git checkout -b branchname
+    + $git branch
+    + $git checkout branchname
 ### Basic Markdown
 - Heading(제목) : ###, ##, # 등 (총 여섯개)
 
